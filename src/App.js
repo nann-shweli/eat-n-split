@@ -20,5 +20,15 @@ const initialFriends = [
 ];
 
 export default function App() {
-  return <div>Hello</div>;
+  return (
+    <div className="App">
+      <div className="sidebar">
+        <FirendList />
+      </div>
+    </div>
+  );
+}
+
+function FirendList() {
+  return <ul>List</ul>;
 }
